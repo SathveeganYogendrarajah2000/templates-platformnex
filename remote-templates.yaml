@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-templates-remote
+  description: A collection of remotely available Backstage example templates
+spec:
+  type: url
+  targets:
+    - https://bitbucket.org/nithursika/templates/src/main/templates/template.yaml
+# - https://bitbucket.org/platformnex/platformnex-plugins/src/d349f45fc3926363eb17c2bd3209f554f52b982d/templates/template.yaml?at=feature%2Fpagerduty-temp
